@@ -4,7 +4,7 @@
 }
 body{
     background-color: whitesmoke;
-    color:  #17421D;
+    color: black;
 }
 .container{
     width: 1080px;
@@ -21,11 +21,11 @@ body{
     height: 250px;
     text-align: center;
     font-size: xx-large;
-    background-image : url("/static/img/chip1.jpg");
+    background-image : url("/static/img/chip2.jpg");
     background-size:cover;
     margin: 0px 0px 0px 0px;
     padding-top: 150px;
-    color: #17421D;
+    color: yellow;
 }
 
 .menu{
@@ -33,7 +33,7 @@ body{
     width: 100%;
     height: 50px;
     font-size: larger;
-    background-color: #17421D;
+    background-color: blueviolet;
     text-align: center;
     padding-top: 15px;
     margin: 0px 0px 0px 0px;
@@ -119,11 +119,30 @@ body{
     display: block;
 }
 
+.peoplecontent{
+    min-height: 500px;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.peoplecontent h1{
+    text-align: center;    
+}
+.peoplecontent img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
 .footer{
     display: block;
     width: 100%;
     height: 40px;
-    background-color: #17421D;
+    background-color: blueviolet;
     text-align: center;
     padding-top: 10px;
     margin: 0px 0px 0px 0px;
